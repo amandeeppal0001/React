@@ -12,7 +12,7 @@ function MyApp(){
   )
 }
 
-// const ReactElement = {
+// const RRReactElement = {
 //     type: 'a',
 //     props:{
 //         href: 'https://google.com',
@@ -41,6 +41,6 @@ createRoot(document.getElementById('root')).render(
     // anotherElement
     // reactElement 
     //       THIS ONE IS IMPORTANT AS IT IS CLEARLY SIGNIFIES WHAT SYNTAX A REACT RENDER METHOD  WANT
-    // <ReactElement/> this will don't work so, don't uncomment it 
+    // <RRReactElement/> this will don't work so, don't uncomment it bcoz of diff. syntax
   // </StrictMode>,
 )
