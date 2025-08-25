@@ -1,6 +1,6 @@
 function Chai(){
     return(
-        <h3>Adhuri is half</h3>
+        <h3>50% means half</h3>
     )
 }
 

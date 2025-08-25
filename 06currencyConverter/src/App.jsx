@@ -85,4 +85,9 @@ function App() {
     );
 }
 
+// functionality reducers ke through hi store(global variable) me jani chaiye
+// never modify your state
+// reducers k through hi changes hone chaiye functionality m store ki
+//data flow is best in redux & no need to spreadout array like ...array to get previus arr in new arr
+
 export default App

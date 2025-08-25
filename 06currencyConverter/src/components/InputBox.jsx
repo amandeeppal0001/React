@@ -11,7 +11,6 @@ function InputBox({
     selectCurrency = "usd",
     amountDisable = false,
     currencyDisable = false,
-    
     className = "",
 }) {
    

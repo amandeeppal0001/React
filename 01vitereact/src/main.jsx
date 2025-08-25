@@ -35,12 +35,12 @@ const reactElement = React.createElement( //bable(tranpiler) will inject this el
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
     // <MyApp />
-        <App />
+        // <App />
 
     // MyApp()
     // anotherElement
+    // THIS ONE IS IMPORTANT AS IT IS CLEARLY SIGNIFIES WHAT SYNTAX A REACT RENDER METHOD  WANT
     // reactElement 
-    //       THIS ONE IS IMPORTANT AS IT IS CLEARLY SIGNIFIES WHAT SYNTAX A REACT RENDER METHOD  WANT
     // <RRReactElement/> this will don't work so, don't uncomment it bcoz of diff. syntax
   // </StrictMode>,
 )

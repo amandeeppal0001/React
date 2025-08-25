@@ -8,11 +8,11 @@ function Card({username, btnText="visit us"}){
 
     return(
         
-         <div className="max-w-xs p-6 rounded-md shadow-md bg-black">
+         <div className="max-w-xs p-6 mb-3 rounded-md shadow-md bg-black">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRinA2sqt0LPEvrxC6Mbpn5qnIEKS1wB58Y8A&s"
           alt=""
-          className="object-cover object-center w-full rounded-md h-72 bg-gray-500"
+          className="object-cover object-center w-full rounded-md h-72 bg-gray-50"
         />
         <div className="mt-6 mb-2">
           <span className="block text-sm font-medium font-mono tracking-widest uppercase text-indigo-400">
